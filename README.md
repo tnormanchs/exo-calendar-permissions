@@ -6,3 +6,5 @@ The script assumes you have output a CSV of the Exchange Online (EXO) Users with
 $user variable assumes each entry has the "Alias" column with a header in your CSV.
 
 It also assumes that you have already logged into ("Connected to") the Exchange Online Management Powershell, more info on that [here](https://learn.microsoft.com/en-us/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps).
+
+There are now two versions: one that uses "Remove > Add" and a second, more streamlined version that uses "Set" for a single (after CSV import) command solution.
